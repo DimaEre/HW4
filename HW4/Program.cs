@@ -1,5 +1,4 @@
-﻿using System;
-using System.Numerics;
+using System;
 
 class Program
 {
@@ -14,11 +13,11 @@ class Program
             b = Convert.ToInt32(Console.ReadLine());
         }
         a = new int[b];
-        Console.WriteLine("Введіть перші 2 числа");
+        b = 0;
         for (int i = 0; i < 2; i++)
         {
-            b = Convert.ToInt32(Console.ReadLine());
             a[i] = b;
+            b++;
         }
         for (int i = 2; i < a.Length; i++)
         {
